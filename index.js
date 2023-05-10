@@ -1,0 +1,1 @@
+console.log("I am in the index.js file");
