@@ -18,7 +18,7 @@ console.log(moment().format('MMMM Do YYYY, h:mm:ss a'));
 console.log(simplify('2 * 3 * x', { x: 4 }).toString());
 console.log("change is hapeening");
 console.log(slugify("Hello World This is working."));
-console.log("the live server us working");
+console.log("the live server is working");
 
 
 
