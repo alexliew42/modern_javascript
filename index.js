@@ -1,8 +1,11 @@
-/* global moment */
+const moment = require('moment');
+const { sqrt } = require('mathjs');
+const { simplify, parse, derivative } = require('mathjs');
 
-console.log("I am in the index.js file");
-var datetime = moment().startOf("day").fromNow();
-console.log(datetime);
 
-var dat = moment().format('MMMM Do YYYY, h:mm:ss a');
-console.log(dat);
+console.log(moment().format('MMMM Do YYYY, h:mm:ss a'));
+console.log(simplify('2 * 3 * x', { x: 4 }).toString());
+console.log("change is hapeening");
+
+
+
